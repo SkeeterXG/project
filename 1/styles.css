@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+    box-sizing: border-box;
+    margin:0;
+
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+}
+
+/*fonts below*/
+li,p ,h2 ,h3 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-slab-h1 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.abtustext {
+    font-family: "Dancing Script", cursive;
+}
+/* fonts above */
+
+button:hover{
+    transition: all 0.2s ease;
+    background-color: rgb(163, 163, 163);
+}
+ul {
+    list-style-type:none
+}
+
+/*----------navbar-below!-----------*/
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: black;
+}
+.navbar button {
+    width:80px;
+    height:40px;
+    border:2px solid rgb(255, 252, 252);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-weight:600;
+}
+.navbar button:hover{
+    transition: all 0.2s ease;
+    background-color: rgb(49, 49, 49);
+    color:rgb(255, 255, 255);
+}
+.navbar ul li {
+    display:inline;
+    padding-left:10px;
+    margin-top:40px;
+}
+li,a {
+    text-decoration: none;
+    color:black;
+}
+.navlinks {
+    margin-top:5px;
+}
+.navlinks a:hover{
+    transition: all 0.2s ease ;
+    color:rgb(194, 194, 194);
+}
+.navlinks a, h1 {
+    color:white;
+}
+
+/*-------------------HTML-body-below!--------------------------*/
+
+.mainbody {
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+/*---------Hours-below--------------------------*/
+.hour-h2-text {
+    font-family: 'Dancing script',cursive;
+    padding-left: 20px;
+}
+.hour-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours h2 {
+    font-size: 50px;
+    margin-bottom:20px;
+}
+.hours {
+    padding-bottom:30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.day li p {
+    display:inline-block;
+}
+.img-int1 {
+    margin-top:35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(179, 179, 179);
+    
+}
+.days-list li,p {
+    font-size: 20px;
+}
+/*---------------About-us-below!----------------------------*/
+
+.About-Us- {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.About-Us- h3 {
+    color:white;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:50px;
+    font-family:"Dancing Script", cursive;
+}
+.about-us-content {
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+.about-us-content p {
+    padding:10px 0;
+    color:white;
+    width:600px;
+    padding-left:10px;
+}
+.abtus-img-containter {
+    display: flex;
+    flex-direction: column;
+    padding-top:20px;
+}
+.abtimg {
+    margin-top:40px;
+    margin-bottom:30px;
+    border-radius:10px;
+    box-shadow: 3px 4px rgb(39, 39, 39);
+}
