@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:white;
+
+}
+.app-item {
+    max-width:400px;
+}
+main {
+    padding-top:58px;
+}
+/*Header background img below*/
+
+.header-background-img{
+    display:flex;
+    justify-content: center;
+}
+
+
+/*navbar below-----------------------------------------------------------*/
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1030;
+    margin:none;
+    background-color: rgb(0, 0, 0);
+    padding:10px;
+}
+.logo-text-header {
+    color:white;
+    font-family: "Bitter", serif;
+}
+.main-header-content {
+    display:flex;
+    justify-content: center;
+    
+}
+.header-links-, .header-logo {
+    display:flex;
+    justify-content: center;
+    margin:auto;
+}
+.navlinks {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    margin-top:2px;
+}
+.navlinks li a {
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+li a:hover {
+    transition: all 0.2s ease ;
+    color:coral;
+}
+.navbar-button {
+    background-color: black;
+    border: 2px solid white;
+    color:white;
+    width:110px;
+    height:27px;
+    border-radius: 10px;
+    font-size:15px;
+    font-family: "Roboto Slab", serif;
+}
+.navbar-button:hover {
+    transition: all 0.2s ease ;
+    background-color: rgb(94, 94, 94);
+}
+/*Hours below--------------------------------------------------------------*/
+
+.Hourscontainer, .Hours-section {
+    margin-top:10px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+.hour-font {
+    font-size:50px;
+    font-family:'dancing script', cursive ;
+}
+.dayslist, .day, .hours ,.hour {
+    list-style: none;
+}
+.day ,.hour {
+    font-size: 25px;
+    font-family: "Bitter", serif;
+}
+.hours {
+    margin-top: 61px;
+    margin-left:30px;
+}
+.img-hrs-container {
+    margin-top:60px;
+}
+.intimg-main {
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(214, 214, 214);
+}
+/*Start About us below---------------------------------------------------*/
+
+.abtus-text {
+    font-size: 50px;
+    font-family: 'Dancing script',cursive;
+    color:rgb(255, 255, 255);
+}
+.about-us-container {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(38, 38, 65);
+}
+.abt-us-section-1, .abt-us-section-2 {
+    display:flex;
+    justify-content: space-evenly;
+    margin:10px;
+}
+.para1, .para2, .parg3, .parg4 {
+    max-width:700px;
+    margin:20px
+}
+.pargstyles {
+    font-size: 25px;
+    font-weight: 550;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(255, 255, 255);
+}
+.img-abtus-styles-1, .img-abtus-styles-2 {
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(38, 44, 75);
+}
+.img-abtus-styles-1 {
+    margin-top:80px;
+}
+
+/*Start of menu font styles below--------------------------------------------------*/
+.menutitle {
+    font-weight:600;
+    font-size: 20px;
+    font-family: 'Roboto Slab',serif;
+}
+.app-item,.pasta-item,.chix-item {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.menu-desc {
+    max-width: 300px;
+    font-size: 17px;
+    font-family: 'Roboto Slab',serif;
+    text-align:center;
+}
+/*menu styles below --------------------------------------*/
+.menu-apps-colums,.menu-salads-columns,.menu-pasta-colums,.chix-columns,.menu-fish-colums,.menu-meat-columns {
+    display:flex;
+    justify-content: space-around;
+}
+.menu-column {
+    display:flex;
+    flex-direction: column;
+}
+.appitizers-text,.Salad-text,.pasta-text,.Chix-text,.menu-fishHeader-text,.meat-header-text {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding:10px;
+}
+.menu-text {
+    font-size: 50px;
+    font-family: 'Dancing Script',cursive;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:20px;
+}
+.chix-item,.pasta-item,.app-item {
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.menu-colums-boxstyles {
+    display: flex;
+    justify-content: center;
+    gap:1.2em;
+}
+/*Start of footer below*/
+
+.footer-element-container {
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menutitle {
+    font-weight:600;
+}
+.menu-price {
+    font-weight:700;
+    color:rgb(23, 22, 110);
+}
